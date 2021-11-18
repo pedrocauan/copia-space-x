@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+</head>
+<body>
+    <header>
+        <!--LOGO-->
+        <h1><a href="index.html"><img src="logo.png" alt="">.</a></h1>
+        <nav>
+        <!--MENU-->
+            <ul>
+                <li><a href="spaceships.html">The spaceships</a></li>
+                <li><a href="hire-us.html">Hire Us</a></li>
+                
+            </ul>
+            <hr>
+        </nav>
+    </header>
+    
+    <section>
+        <!--Titulo do formulário-->
+        <h2>Hire us Now</h2>
+        <p>Leave a message to request one of  our services and we will get back to you as soon as 
+            possible.
+        </p>
+        <!--Formulário-->
+        <form action="">
+            <div>
+                <!--Nome-->
+                <label for="name">Nome*</label>
+                <input type="text" name="name" required id="name" maxlength="40">
+                <!--Email-->
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <!--barrinha de opção-->
+                <label for="spaceship">Spaceship</label>
+                <select name="spaceship" id="spaceship">
+                    <option value="falcon 9">Falcon 9</option>
+                    <option value="falcon heavy">Falcon heavy</option>
+                </select>
+                <!--Serviços-->
+                <label for="service">service</label>
+                <input type="search" name="service" id="service">
+            </div>
+            <input type="submit" value="Send Message">
+
+
+        </form>
+    </section>
+</body>
+</html>
